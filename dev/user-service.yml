@@ -1,1 +1,13 @@
+service:
+  port: 7749
+  servlet:
+    context-path: /user
 
+spring:
+  data:
+    dbo-name: dbo_user
+  datasource:
+    jdbcUrl: jdbc:postgresql://localhost:5432/dbo_user
+    username: postgres
+    password: 12345678x@X
+    driverClassName: org.postgresql.Driver
